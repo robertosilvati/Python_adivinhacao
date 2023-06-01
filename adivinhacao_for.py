@@ -15,7 +15,7 @@ print("Lembre-se que so pode colcar numeros de 1 a 100!!!")
 print("**************************************************")
 
 
-nivel = int(input("Digite o nível aqui: "))
+nivel = int(input("Defina seu nível aqui: "))
 if nivel == 1:
     total_de_tentativas = 20
 elif nivel == 2:

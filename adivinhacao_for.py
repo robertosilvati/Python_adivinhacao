@@ -11,6 +11,9 @@ pontos = 1000
 
 print("Qual é o seu nivel de dificuldade?")
 print("(1) Fácil (2) Médio (3) Difícil")
+print("Lembre-se que so pode colcar numeros de 1 a 100!!!")
+print("**************************************************")
+
 
 nivel = int(input("Digite o nível aqui: "))
 if nivel == 1:
@@ -23,7 +26,8 @@ else:
 for rodada in range (1, total_de_tentativas + 1):
     print(f"Tentativas {rodada} de {total_de_tentativas}")
 
-    chute_str = input("Digite o seu número entre 1 e 100: ")
+    print("***********************************************")
+    chute_str = input("Digite o seu número aqui: ")
     print("Você digitou " , chute_str)
     chute = int(chute_str)
     if chute < 1 or chute > 100:

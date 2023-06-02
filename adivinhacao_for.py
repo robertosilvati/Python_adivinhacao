@@ -1,6 +1,4 @@
 import random
-
-
 print("*******************************************")
 print("Bem vindo ao jogo de Adivinhação no Python!")
 print("*******************************************")
@@ -13,7 +11,6 @@ print("Qual é o seu nivel de dificuldade?")
 print("(1) Fácil (2) Médio (3) Difícil")
 print("Lembre-se que so pode colcar numeros de 1 a 100!!!")
 print("**************************************************")
-
 
 nivel = int(input("Defina seu nível aqui: "))
 if nivel == 1:
